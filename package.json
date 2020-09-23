@@ -1,0 +1,36 @@
+{
+  "name": "@tgedr/function-graphql-api",
+  "version": "1.0.0",
+  "description": "graphql api implementation in a lambda function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgedr/function-graphql-api.git"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "keywords": [
+    "lambda",
+    "ja",
+    "node",
+    "graphql",
+    "api",
+    "aws"
+  ],
+  "author": "Joao Tiago Viegas <jtviegas.js@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/tgedr/function-graphql-api/issues"
+  },
+  "homepage": "https://github.com/tgedr/function-graphql-api#readme",
+  "dependencies": {
+    "apollo-server-lambda": "^2.16.1",
+    "graphql": "^15.3.0",
+    "@tgedr/graphql-store-schema": "^1.0.1"
+  },
+  "devDependencies": {}
+}
